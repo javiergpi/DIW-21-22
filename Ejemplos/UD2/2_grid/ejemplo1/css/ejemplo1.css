@@ -1,0 +1,40 @@
+
+*{
+    box-sizing:border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#contenedor{
+    width:80%;
+    margin:20px auto;
+    
+}
+
+#contenedor div{
+    padding:2em;
+    text-align: center;
+}
+
+#cabecera{
+    background-color:khaki; 
+   
+      
+}
+
+#menu{
+    background-color: lightblue;
+    
+
+}
+
+#contenido1, #contenido2, #contenido3{
+    background-color: lightcoral;
+
+}
+
+
+
+#pie{
+    background-color: lightgreen;
+   
+}

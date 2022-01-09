@@ -1,0 +1,57 @@
+
+*{
+    box-sizing:border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#contenedor{
+    width:80%;
+    margin:20px auto;     
+}
+
+#contenedor div{
+  padding:2em;
+  text-align: center;
+}
+
+#cabecera {
+    background-color:papayawhip;
+  
+  }
+  
+  #rojo {
+    background-color: #f5b19e;
+   
+  }
+  
+ #azul{
+    background-color: lightskyblue;
+    
+  }
+  
+ #morado{
+    background-color: pink;
+  }
+  
+#marron {
+    background-color:sienna;
+    
+  }
+  
+#verde {
+    background-color:olivedrab;
+  }
+  
+ #negro{
+    background-color:black;
+   
+  }
+  
+ #amarillo {
+    background-color:gold;
+   
+  }
+
+  #naranja {
+    background-color: orange;
+  }

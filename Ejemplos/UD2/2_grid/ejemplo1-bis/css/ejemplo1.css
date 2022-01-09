@@ -1,0 +1,46 @@
+
+*{
+    box-sizing:border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#contenedor{
+    width:80%;
+    margin:20px auto;
+    display:grid;
+    grid-template-areas: "cabecera cabecera"
+                         "menu pie";
+ 
+}
+
+#contenedor div{
+    padding:2em;
+    text-align: center;
+}
+
+#cabecera{
+    background-color:khaki; 
+    grid-area:cabecera;
+   
+      
+}
+
+#menu{
+    background-color: lightblue;
+    grid-area:menu;
+
+
+}
+
+#contenido1, #contenido2, #contenido3{
+    background-color: lightcoral;
+
+}
+
+
+
+#pie{
+    background-color: lightgreen;
+    grid-area:pie;
+   
+}
