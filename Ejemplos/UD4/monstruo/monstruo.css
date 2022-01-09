@@ -1,0 +1,13 @@
+#monstruo{
+    width:82px;
+    height:116px;
+    background-image: url(monstruo.png);
+    background-repeat: no-repeat;
+    animation:mueve-monstruo .8s linear infinite;
+
+}
+
+@keyframes mueve-monstruo{
+    from{background-position:0 0;}
+    to{background-position:-820px 0;}
+}

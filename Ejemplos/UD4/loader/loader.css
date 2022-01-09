@@ -1,0 +1,25 @@
+
+
+#loader{
+    margin:100px;
+    width:30px;
+    height:30px;
+    border:8px solid black;
+    border-radius:50%;
+    border-right:0 none;
+    box-shadow: 0 0 25px 2px #111;
+    animation-name:gira;
+    animation-duration:1s;
+}
+
+#loader:hover{
+    animation-iteration-count:infinite;
+
+}
+
+@keyframes gira{
+    from{ transform:rotate(0deg); opacity:0.2;}
+    50%{ transform:rotate(180deg); opacity:1;}
+    to{ transform:rotate(360deg); opacity:0.2;}
+
+}
