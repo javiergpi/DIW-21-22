@@ -1,0 +1,41 @@
+
+*{
+    box-sizing:border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:.8em;
+}
+
+#contenedor{
+    width:80%;
+    margin:0 auto;
+}
+
+p{
+    background-color:cadetblue;
+    padding:1em;
+    margin:1em;
+}
+
+@media screen and (max-width:480px) {
+    .amarillo{
+        background-color: yellow;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:768px) {
+    .verde{
+        background-color:yellowgreen;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1200px) {
+    .azul{
+        background-color:royalblue;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .naranja{
+        background-color:orange;
+    }
+}

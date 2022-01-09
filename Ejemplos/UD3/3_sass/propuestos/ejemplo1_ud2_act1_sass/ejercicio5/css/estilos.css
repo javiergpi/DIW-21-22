@@ -1,0 +1,35 @@
+
+/* Define una función para las trasnformaciones en un fichero _funciones.scss */
+
+body{
+    background-image:url(img/sobre.jpg);
+}
+
+.simpson{
+    display:inline-block;
+}
+
+.simpson img{
+   width:150px;
+   margin:20px;
+   border:10px  transparent solid;
+   border-image:url(img/sello.png) 33% round;   
+}
+
+#ralph{
+    transform:rotate(15deg);
+}
+
+#milhouse{
+    transform:rotate(-15deg);
+}
+
+#flanders{
+    transform:rotate(-10deg);
+}
+
+#nelson{
+    transform:rotate(10deg);
+}
+
+

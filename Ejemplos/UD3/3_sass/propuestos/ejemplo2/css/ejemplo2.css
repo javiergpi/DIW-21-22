@@ -1,0 +1,135 @@
+/* Ejemplo 1.
+ * Vamos a poner en práctica los conceptos generales.
+    - Usa comentarios para describir las reglas CSS
+    - Usa variables para definir una paleta de colores para los elementos de la Web
+    - Usa variables para definir estilos generales para el contenedor principal, bordes de los elementos..
+    - Incluye estructuras de anidamiento. 
+
+/*
+
+
+*{
+    box-sizing:border-box;
+}
+
+h1,h2,p{
+    margin:0px;
+}
+
+.container {
+    color:#666666;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width:80%;
+    margin:20px auto;
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+
+
+
+
+
+
+header{
+    text-align:center;
+    border-bottom:2px solid #666666;
+    padding-bottom:1em;
+    grid-column:1/5;
+    
+}
+
+
+nav{
+  padding:.5em;
+   grid-column:1/2;
+ 
+    
+}
+
+main{
+    background-color:#ecfec7;
+    background-image: url(img/485-536x354.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    grid-column:2/5;
+      
+    padding:1em;
+
+    display:grid;
+    grid-template-rows: auto;
+    align-items:center;
+    justify-items:end;
+   
+}
+
+main h1{
+    padding: 1em;
+    text-align:justify;
+    color:azure;
+    background-color:#666666;
+    font-size:1em;
+    text-align:right;
+   
+}
+
+nav div{
+    padding:.5em;
+
+}
+
+nav div:hover{
+    background-color:#666666;
+    color:azure;
+}
+
+
+
+
+.articles{
+    grid-column:1/5;
+
+    display:grid;
+    
+    grid-template-columns: 1fr 1fr;
+
+}
+
+article{
+   background-color:#fdfdfd;
+   text-align:center;
+   padding:1em;
+   padding-top:2em;
+   color:#666666;
+
+}
+
+article img{
+    border-radius: 1em; 
+    width:80%; 
+}
+
+
+
+
+footer{
+    
+    border-top:1px solid #666666;
+    padding-top:1em;
+    grid-column:1/5;
+    justify-items:center;
+  
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+   
+}
+.social i{
+    font-size:2em;
+
+}
+
+
+
+

@@ -1,0 +1,14 @@
+
+
+#container{
+    margin:0 auto;
+    width:80%;
+
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid:1em;
+}
+
+img{
+   width:100%;
+}

@@ -1,0 +1,45 @@
+
+/* REJILLA GRID 1
+* Rejilla de 12 columnas.
+ *  Cada fila debe ser .fila
+ * Los elementos .col-XX ocupan XX columnas.
+*/
+     
+
+*{
+    box-sizing:border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#contenedor{
+    width:80%;
+    margin:0 auto;
+}
+
+.fila{
+    display:grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap:1em;
+}
+
+[class*="col-"] { 
+    background-color:darkkhaki;
+    padding:1em;
+}
+
+
+
+/* Rejilla de 12 columnas en todas las resoluciones */
+.col-12{ grid-column-end:span 12; }
+.col-11{ grid-column-end:span 11; }
+.col-10{ grid-column-end:span 10; }
+.col-9 { grid-column-end:span 9; }
+.col-8 { grid-column-end:span 8; }
+.col-7 { grid-column-end:span 7; }
+.col-6 { grid-column-end:span 6; }
+.col-5 { grid-column-end:span 5; }
+.col-4 { grid-column-end:span 4; }
+.col-3 { grid-column-end:span 3; }
+.col-2 { grid-column-end:span 2; }
+.col-1 { grid-column-end:span 1; }

@@ -1,0 +1,36 @@
+/*
+@media screen and (max-width: 480px){
+       .p, .s, .t{
+            
+        display: none;
+    }
+    }
+@media screen and (min-width:480px) and (max-width:768px){
+        table{
+            color:red;
+        }
+
+        .t{
+            
+            display: none;
+        }
+    }*/
+
+@media screen and (max-width:768px){
+ tr td:first-child{
+     background-color:grey;
+ }
+
+ table, thead, tbody, th, td, tr {
+    display: block;
+}
+
+ tbody td:before{
+     content:attr(data-th);
+ }
+
+ thead{
+     display:none;
+ }
+    
+}

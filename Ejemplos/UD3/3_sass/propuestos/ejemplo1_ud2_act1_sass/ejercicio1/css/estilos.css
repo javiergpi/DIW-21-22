@@ -1,0 +1,39 @@
+/*Variante 1:  Crea variables para definir:
+    - Colores.
+    - Tipografía
+    - Altura de la caja y los botones */
+
+/*Variante 2: Una vez que las variables te funcionen, pásalas a un archivo llamado _variables.scss */
+
+
+
+
+#contenedor {
+    background-color: #808080;
+    width: 30%;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+
+#contenedor, #anterior, #siguiente {
+    text-align: center;
+    padding: 10px;
+    border: 2px black solid;
+}
+
+
+
+#anterior, #siguiente {  
+    width: 80px;
+    background-color: #d0bfbf;
+    color: white;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}

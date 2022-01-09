@@ -1,0 +1,34 @@
+
+/* REJILLA FLEX 1  Rejilla de columnas del mismo tamaño.
+ *  Cada fila debe ser .fila
+ * Por cada  .col que definamos dentro de la fila se crearán columnas del mismo tamaño 
+*/
+     
+
+
+*{
+    box-sizing:border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#contenedor{
+    width:80%;
+    margin:0 auto;
+}
+
+
+.fila{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    gap:1em;
+}
+
+
+.col{
+    flex:1;
+    background-color:darkkhaki;
+    padding:1em;
+    /* Fuerza a que las columnas estén en la misma fila donde son definidas */
+}

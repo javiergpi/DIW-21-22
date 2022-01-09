@@ -1,0 +1,50 @@
+
+/* REJILLA FLOTANTE 1   Rejilla de 12 columnas del mismo tamaño.
+*  Cada fila debe ser de la clase .fila
+*  Definimos una rejilla de 12 columnas
+*  "Simulamos" separación mediante el borde blanco (o del color del fondo de la página
+*/
+     
+
+*{
+    box-sizing:border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#contenedor{
+    width:80%;
+    margin:0 auto;
+}
+
+
+/* Como todas las columnas son flotantes, insertamos artificialmente la caja para limpiar en cada fila */
+.fila:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+[class*="col-"] {
+    float: left;
+    
+    background-color:darkkhaki;
+    padding:1em;
+    border:.5em solid white;
+}
+
+
+.col-12{ width:calc(8.33%*12); }
+.col-11{ width:calc(8.33%*11); }
+.col-10{ width:calc(8.33%*10); }
+.col-9{  width:calc(8.33%*9); }
+.col-8{  width:calc(8.33%*8); }
+.col-7{  width:calc(8.33%*7); }
+.col-6{  width:calc(8.33%*6); }
+.col-5{  width:calc(8.33%*5); }
+.col-4{  width:calc(8.33%*4); }
+.col-3{  width:calc(8.33%*3); }
+.col-2{  width:calc(8.33%*2); }
+.col-1{  width:calc(8.33%*1); } 
+

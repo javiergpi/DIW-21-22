@@ -1,0 +1,17 @@
+
+*{
+    box-sizing:border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:.8em;
+}
+
+#contenedor{
+    width:80%;
+    margin:0 auto;
+}
+
+p{
+    background-color:cadetblue;
+    padding:1em;
+    margin:1em;
+}
