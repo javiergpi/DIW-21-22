@@ -1,0 +1,12 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+.contenedor {
+  margin-bottom: 20px;
+  background: #0d6efd;
+  color: #fff;
+}
+
+.contenedor div {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  border: 1px solid #0d6efd;
+}

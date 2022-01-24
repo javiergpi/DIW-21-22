@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<title>Position</title>
+	<style>
+		.caja {
+			width: 50px;
+			height: 50px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row mt-5">
+			<div class="col-12 mt-5">
+				<div class="position-relative bg-secondary" style="height: 500px;">
+					<div class="caja bg-dark position-absolute top-0 start-0"></div>
+					<div class="caja bg-dark position-absolute top-0 end-0"></div>
+					<div class="caja bg-dark position-absolute top-50 start-50"></div>
+					<div class="caja bg-dark position-absolute bottom-50 end-50"></div>
+					<div class="caja bg-dark position-absolute bottom-0 start-0"></div>
+					<div class="caja bg-dark position-absolute bottom-0 end-0"></div>
+				</div>
+			</div>
+
+			<div class="col-12">
+				<div class="bg-primary text-white p-3 fixed-top">Posicionamiento Fijo Arriba</div>
+				<div class="bg-primary text-white p-3 fixed-bottom">Posicionamiento Fijo Abajo</div>
+				
+				<div class="card my-5" style="height: 1000px;">
+					<div class="card-body">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dolorum et accusamus ad inventore vel voluptatum laudantium! Excepturi nihil ipsum molestias nisi? Officia, praesentium debitis ipsam quas non corporis quod.
+					</div>
+				</div>
+				
+				<div class="bg-primary text-white p-3 sticky-top" style="top: 56px;">Posicionamiento Sticky</div>
+				
+				<div class="card my-5" style="height: 1000px;">
+					<div class="card-body">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dolorum et accusamus ad inventore vel voluptatum laudantium! Excepturi nihil ipsum molestias nisi? Officia, praesentium debitis ipsam quas non corporis quod.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="../js/bootstrap.bundle.js"></script>
+</body>
+</html>

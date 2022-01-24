@@ -1,0 +1,20 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+.container {
+  margin-top: 20px;
+}
+
+.container .row {
+  background: #e8e8e8;
+}
+
+.container .row .columna {
+  background: #f2f2f2;
+  text-align: center;
+  border: 1px solid #8d8d8d;
+}
+
+.container .row .columna .columna-interior {
+  background: #e8e8e8;
+  border: 1px solid #8d8d8d;
+  padding: 10px;
+}

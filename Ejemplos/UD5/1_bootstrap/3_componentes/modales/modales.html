@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <title>Componentes-Modales</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.0.2 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="row mt-5">
+			<div class="col">
+				<button 
+					class="btn btn-primary btn-lg"
+					data-bs-toggle="modal"
+					data-bs-target="#mi-modal-1"
+				>
+					Abrir Modal 1
+				</button>
+
+				<div
+					class="modal fade"
+					id="mi-modal-1"
+					tabindex="-1"
+					aria-hidden="true"
+					aria-labelledby="label-modal-1"
+				>
+					<!-- Caja de dialogo -->
+					<div class="modal-dialog">
+						<!-- Contenido de la caja -->
+						<div class="modal-content">
+							<!-- Encabezado de la caja -->
+							<div class="modal-header">
+								<h5 class="modal-title">Titulo del modal</h5>
+								<button class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+							</div>
+
+							<!-- Cuerpo de la caja -->
+							<div class="modal-body">
+								<h1>Hola Mundo</h1>
+							</div>
+
+							<!-- Pie de pagina de la caja -->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancelar</button>
+								<button type="button" class="btn btn-primary">Acepto</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col">
+				<button 
+					class="btn btn-primary btn-lg"
+					data-bs-toggle="modal"
+					data-bs-target="#mi-modal-2"
+				>
+					Abrir Modal 2
+				</button>
+
+				<div
+					class="modal fade"
+					id="mi-modal-2"
+					tabindex="-1"
+					aria-hidden="true"
+					aria-labelledby="label-modal-2"
+					data-bs-backdrop="static"
+				>
+					<!-- Caja de dialogo -->
+					<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+						<!-- Contenido de la caja -->
+						<div class="modal-content">
+							<!-- Encabezado de la caja -->
+							<div class="modal-header">
+								<h5 class="modal-title">Titulo del modal</h5>
+								<button class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+							</div>
+
+							<!-- Cuerpo de la caja -->
+							<div class="modal-body">
+								<div style="height: 1000px;">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe velit rerum, itaque eaque explicabo assumenda aut soluta recusandae quam nesciunt aperiam, eius sed temporibus suscipit aspernatur. Laboriosam illum harum voluptatem?
+								</div>
+							</div>
+
+							<!-- Pie de pagina de la caja -->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancelar</button>
+								<button type="button" class="btn btn-primary">Acepto</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
